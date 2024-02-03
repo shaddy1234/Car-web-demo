@@ -55,3 +55,46 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+/* *{
+  box-sizing: border-box;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+}
+/* .cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+} */
+
+
+/* .car-photo {
+  width: 100%;
+  height: 300px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+} */ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.one {
+  margin: 3px 5px;
+  width: 1000px;
+  border: 1px solid black;
+}
+
+.car-photo {
+  width: 100%;
+  height: 300px;
+
+}
