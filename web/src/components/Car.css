@@ -7,19 +7,21 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .main {
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 100%;
   box-sizing: border-box;
   gap: 2px;
-  height: 100vh; /* 100% of the viewport height */
+  box-shadow: 0.1 0.1 0.1;
 }
 .one {
   margin-top: 10px;
   margin-right: 4px;
-  width: 300px;
-  border: 1px solid gray;
-  height: 650px;
+  width: 320px;
+  border: 1px solid rgb(240, 233, 233);
+  height: 620px;
   border-radius: 10px;
   overflow: hidden;
 }
