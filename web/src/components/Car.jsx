@@ -1,12 +1,13 @@
 import React from 'react'
 import './Car.css'
+import './data'
 
-function Car() {
+function Car(props) {
     return (
         <div className='one'>
             <img src="../images/car-1.jpg" alt="Photo-1" className='car-photo' />
             <div className='car-details'>
-                <span>NISSAN NOTE </span>
+                <span>{props.name} </span>
                 <span>2021</span>
                 <div className='moves'>
                     <button>Automatic</button>
