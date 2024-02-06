@@ -198,6 +198,7 @@ export default Car
 
 //                         Specs include a Multifunctional steering wheel, Head up display, memory seats with heating function, rear amrest, sunroof, leather seats, adaptive headlights, analogue instrument cluster, Premium surround sound system, dual zone climate controls, and traction control.</div>
 //                     <br />
+// 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
 //                     <hr />
 //                     <div className='bottom'>
 //                         <span>KES 1,900,000</span>
