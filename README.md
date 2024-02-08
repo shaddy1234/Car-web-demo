@@ -1,1 +1,1 @@
-Web showing available products in stock
+Web showing different models of cars
