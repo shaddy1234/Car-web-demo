@@ -4,6 +4,7 @@ import './App.css'
 import './index.css'
 import data from './components/data'
 import Car from './components/Car'
+import Navbar from './components/Navbar'
 
 function App() {
   const cars = data.map((car) => {
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <div>
+      <Navbar />
       <section className='main'>{cars}</section>
     </div>
   )
