@@ -6,6 +6,65 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+
+/* Navbar */
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background: linear-gradient(90deg, #770000 1.18%, #db7e7e 100%);
+  color: white;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 10px;
+}
+
+.header--title {
+  font-size: 30px;
+  margin-right: auto;
+}
+
+.header--project {
+  font-size: 16px;
+  font-weight: 500;
+}
+.header--project > li {
+  list-style: none;
+}
+.header--project > a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  background-color:transparent;
+  overflow: hidden;
+}
+
+ul.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+ul.navbar li a:hover {
+  background-color: #555;
+}
+
 .main {
   margin-left: auto;
   margin-right: auto;
@@ -17,7 +76,7 @@ body {
   box-shadow: 0.1 0.1 0.1;
 }
 .one {
-  margin-top: 10px;
+  margin-top: 80px;
   margin-right: 4px;
   width: 320px;
   border: 1px solid rgb(240, 233, 233);
