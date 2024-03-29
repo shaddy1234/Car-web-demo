@@ -1,26 +1,3 @@
-// import React from 'react'
-
-// function Footer() {
-//   return (
-//     <div>
-//       <footer>
-//         <p>@kim 2024 | Crafted with <span class="love-emoji">❤️</span> | Have a good <span id="dayOfWeek"></span></p>
-
-//         <script>
-//             // JavaScript to get and display the current day of the week
-//             const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-//             const today = new Date();
-//             const dayOfWeek = daysOfWeek[today.getDay()];
-
-//             document.getElementById('dayOfWeek').textContent = dayOfWeek;
-//         </script>
-//     </footer>
-
-//     </div>
-//   )
-// }
-
-// export default Footer
 import React from 'react';
 
 const Footer = () => {
